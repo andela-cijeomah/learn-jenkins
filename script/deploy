@@ -4,6 +4,6 @@ ssh -p 18888 bendozy@162.243.248.29 <<EOF
   cd ~/Documents/Node/learn-jenkins
   git pull
   sudo npm install --production
-  forever restartall
+  sudo forever restartall
   exit
 EOF
